@@ -34,7 +34,7 @@ def remove_user():
     for i, user, in enumerate(community):
         if user ['username'] == user_to_remove:
             community.pop(i)
-            print(f"Successfully removed {user_to_remove}")
+            print(f"Successfully removed {user_to_remove} from the Community")
             return
 
 def show_members():
