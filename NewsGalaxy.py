@@ -22,11 +22,11 @@ def show_List(adresser):
         print(f"{i}: {epost}")
 
 def remove_duplicates(adresser):
-    unika = []
+    unique = []
     for epost in adresser:
-        if epost not in unika:
-            unika.append(epost)
-        return unika
+        if epost not in unique:
+            unique.append(epost)
+        return unique
 
 def main():
     while True:
