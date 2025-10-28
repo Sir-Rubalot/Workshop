@@ -1,12 +1,6 @@
 news_galaxy = []
 
 adresser = set()
-#while True:
-#    epost = input("Ange e-postadress för att signa upp till nyhetsbrevet! ").strip()
-#    user_choice = input(">: ").strip()
-#    if epost.lower() == 'sluta':
-#        break
-#    adresser.add(epost)
 
 total = len(adresser)
 unika = len(news_galaxy)
