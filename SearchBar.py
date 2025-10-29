@@ -1,6 +1,7 @@
 search_bar = []
 
-word_bank = ["apple", "samsung", "banana", "application", "python", "apartment", "skateboard", "bycycle", "robots"]
+word_bank = ["apple", "samsung", "banana", "application", "python", "apartment", 
+             "skateboard", "bycycle", "robots", "dogs"]
 
 def autofill(prefix, word_bank, max_match=5):
     matching = []
